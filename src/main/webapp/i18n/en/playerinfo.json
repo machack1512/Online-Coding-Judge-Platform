@@ -1,0 +1,27 @@
+{
+  "mockRgs2App": {
+    "playerinfo": {
+      "home": {
+        "title": "Playerinfos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Playerinfo",
+        "createOrEditLabel": "Create or edit a Playerinfo",
+        "notFound": "No Playerinfos found"
+      },
+      "created": "A new Playerinfo is created with identifier { param }",
+      "updated": "A Playerinfo is updated with identifier { param }",
+      "deleted": "A Playerinfo is deleted with identifier { param }",
+      "delete": {
+        "question": "Are you sure you want to delete Playerinfo { id }?"
+      },
+      "detail": {
+        "title": "Playerinfo"
+      },
+      "id": "ID",
+      "playerId": "Player Id",
+      "playerName": "Player Name",
+      "balance": "Balance",
+      "playerActivityLogs": "Player Activity Logs"
+    }
+  }
+}

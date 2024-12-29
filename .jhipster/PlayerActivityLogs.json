@@ -1,0 +1,42 @@
+{
+  "annotations": {
+    "changelogDate": "20240909095228"
+  },
+  "fields": [
+    {
+      "fieldName": "playerId",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "action",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "beforeBalance",
+      "fieldType": "Integer",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "afterBalance",
+      "fieldType": "Integer",
+      "fieldValidateRules": []
+    }
+  ],
+  "name": "PlayerActivityLogs",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityField": "id",
+      "otherEntityName": "playerinfo",
+      "otherEntityRelationshipName": "playerActivityLogs",
+      "relationshipName": "onetomany",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "no"
+}
