@@ -1,0 +1,28 @@
+{
+  "annotations": {
+    "changelogDate": "20240904051026"
+  },
+  "fields": [
+    {
+      "fieldName": "playerId",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "playerName",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "balance",
+      "fieldType": "Integer",
+      "fieldValidateRules": []
+    }
+  ],
+  "name": "Playerinfo",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "no"
+}

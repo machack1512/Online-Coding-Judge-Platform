@@ -1,0 +1,20 @@
+
+entity Playerinfo {
+  playerId String required
+  playerName String required
+  balance Integer required
+}
+
+entity PlayerActivityLog {
+  playerId String required
+  action String required
+  beforeBalance Integer required
+  afterBalance Integer required
+}
+
+relationship OneToMany {
+  Playerinfo{activityLogs} to PlayerActivityLog{playerinfo}
+}
+
+
+
